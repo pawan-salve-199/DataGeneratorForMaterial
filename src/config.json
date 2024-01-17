@@ -1,0 +1,63 @@
+{
+    "fact_tables": {
+ 
+      "cities": {
+        "active": true,
+        "num_records": 500
+      },
+      "customers": {
+        "active": true,
+        "num_records": 1000
+      },
+      "orders": {
+        "active": true,
+        "num_records": 50
+      },
+      "projects": {
+        "active": true,
+        "num_records": 10
+      },
+      "project_materials": {
+        "active": true,
+        "num_records": 30
+      },
+      "transactions": {
+        "active": true,
+        "num_records": 50
+      }
+    },
+    
+    "dimension_tables": {
+    "suppliers": {
+        "active": true,
+        "num_records": 1000
+        },
+        "supplier_certifications": {
+        "active": true,
+        "num_records": 300
+        },
+        "supplier_certification_mapping": {
+        "active": true,
+        "num_records": 1000
+        },
+      "material_categories": {
+        "active": false
+      },
+      "material_category_mapping": {
+        "active": false
+      },
+      "materials": {
+        "active": false
+      },
+      "employee_transactions": {
+        "active": false
+      },
+      "employees": {
+        "active": false
+      },
+      "inventory": {
+        "active": false
+      }
+    }
+  }
+  
